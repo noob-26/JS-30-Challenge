@@ -10,19 +10,19 @@ function keyPress(e) {
   let audio;
   switch (key) {
     case "a":
-      audio = new Audio("./01 - JavaScript Drum Kit_sounds_boom.wav");
+      audio = new Audio("./audio/01 - JavaScript Drum Kit_sounds_boom.wav");
       break;
     case "b":
-      audio = new Audio("./01 - JavaScript Drum Kit_sounds_clap.wav");
+      audio = new Audio("./audio/01 - JavaScript Drum Kit_sounds_clap.wav");
       break;
     case "c":
-      audio = new Audio("./01 - JavaScript Drum Kit_sounds_hihat.wav");
+      audio = new Audio("./audio/01 - JavaScript Drum Kit_sounds_hihat.wav");
       break;
     case "d":
-      audio = new Audio("./01 - JavaScript Drum Kit_sounds_kick.wav");
+      audio = new Audio("./audio/01 - JavaScript Drum Kit_sounds_kick.wav");
       break;
     case "e":
-      audio = new Audio("./01 - JavaScript Drum Kit_sounds_ride.wav");
+      audio = new Audio("./audio/01 - JavaScript Drum Kit_sounds_ride.wav");
       break;
   }
 
